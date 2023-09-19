@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  SiniarApp-ios
+//
+//  Created by Alief Ahmad Azies on 19/09/23.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
