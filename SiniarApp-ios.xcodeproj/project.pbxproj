@@ -10,10 +10,14 @@
 		016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD52AB9583C000E6BAB /* AppDelegate.swift */; };
 		016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD72AB9583C000E6BAB /* SceneDelegate.swift */; };
 		016BBBDA2AB9583C000E6BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD92AB9583C000E6BAB /* ViewController.swift */; };
-		016BBBDD2AB9583C000E6BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BBBDB2AB9583C000E6BAB /* Main.storyboard */; };
 		016BBBE02AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBDE2AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld */; };
 		016BBBE22AB9583E000E6BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BBBE12AB9583E000E6BAB /* Assets.xcassets */; };
 		016BBBE52AB9583E000E6BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BBBE32AB9583E000E6BAB /* LaunchScreen.storyboard */; };
+		016BBBF02AB95B37000E6BAB /* FtuxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBEF2AB95B37000E6BAB /* FtuxViewController.swift */; };
+		016BBBF22AB97C92000E6BAB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF12AB97C92000E6BAB /* UIColorExtension.swift */; };
+		016BBBF62AB97F12000E6BAB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF52AB97F11000E6BAB /* PrimaryButton.swift */; };
+		016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF72AB98092000E6BAB /* SmallPrimaryButton.swift */; };
+		016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF92AB98909000E6BAB /* FtuxViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +25,15 @@
 		016BBBD52AB9583C000E6BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016BBBD72AB9583C000E6BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		016BBBD92AB9583C000E6BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		016BBBDC2AB9583C000E6BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016BBBDF2AB9583C000E6BAB /* SiniarApp_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SiniarApp_ios.xcdatamodel; sourceTree = "<group>"; };
 		016BBBE12AB9583E000E6BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016BBBE42AB9583E000E6BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016BBBE62AB9583E000E6BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016BBBEF2AB95B37000E6BAB /* FtuxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewController.swift; sourceTree = "<group>"; };
+		016BBBF12AB97C92000E6BAB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		016BBBF52AB97F11000E6BAB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		016BBBF72AB98092000E6BAB /* SmallPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPrimaryButton.swift; sourceTree = "<group>"; };
+		016BBBF92AB98909000E6BAB /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +68,66 @@
 			children = (
 				016BBBD52AB9583C000E6BAB /* AppDelegate.swift */,
 				016BBBD72AB9583C000E6BAB /* SceneDelegate.swift */,
+				016BBBEC2AB95AEF000E6BAB /* Classes */,
 				016BBBD92AB9583C000E6BAB /* ViewController.swift */,
-				016BBBDB2AB9583C000E6BAB /* Main.storyboard */,
 				016BBBE12AB9583E000E6BAB /* Assets.xcassets */,
 				016BBBE32AB9583E000E6BAB /* LaunchScreen.storyboard */,
 				016BBBE62AB9583E000E6BAB /* Info.plist */,
 				016BBBDE2AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld */,
 			);
 			path = "SiniarApp-ios";
+			sourceTree = "<group>";
+		};
+		016BBBEC2AB95AEF000E6BAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				016BBBFB2AB99B32000E6BAB /* Models */,
+				016BBBF42AB97EFE000E6BAB /* Views */,
+				016BBBF32AB97CD2000E6BAB /* Extensions */,
+				016BBBED2AB95AF5000E6BAB /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		016BBBED2AB95AF5000E6BAB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				016BBBEE2AB95AFF000E6BAB /* Ftux */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		016BBBEE2AB95AFF000E6BAB /* Ftux */ = {
+			isa = PBXGroup;
+			children = (
+				016BBBEF2AB95B37000E6BAB /* FtuxViewController.swift */,
+				016BBBF92AB98909000E6BAB /* FtuxViewCell.swift */,
+			);
+			path = Ftux;
+			sourceTree = "<group>";
+		};
+		016BBBF32AB97CD2000E6BAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				016BBBF12AB97C92000E6BAB /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		016BBBF42AB97EFE000E6BAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				016BBBF52AB97F11000E6BAB /* PrimaryButton.swift */,
+				016BBBF72AB98092000E6BAB /* SmallPrimaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		016BBBFB2AB99B32000E6BAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +190,6 @@
 			files = (
 				016BBBE52AB9583E000E6BAB /* LaunchScreen.storyboard in Resources */,
 				016BBBE22AB9583E000E6BAB /* Assets.xcassets in Resources */,
-				016BBBDD2AB9583C000E6BAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016BBBF02AB95B37000E6BAB /* FtuxViewController.swift in Sources */,
+				016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */,
 				016BBBDA2AB9583C000E6BAB /* ViewController.swift in Sources */,
 				016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */,
 				016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */,
+				016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */,
+				016BBBF62AB97F12000E6BAB /* PrimaryButton.swift in Sources */,
 				016BBBE02AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld in Sources */,
+				016BBBF22AB97C92000E6BAB /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		016BBBDB2AB9583C000E6BAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				016BBBDC2AB9583C000E6BAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		016BBBE32AB9583E000E6BAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +352,10 @@
 				INFOPLIST_FILE = "SiniarApp-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +363,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ziesdev.SiniarApp-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,9 +384,10 @@
 				INFOPLIST_FILE = "SiniarApp-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +395,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ziesdev.SiniarApp-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

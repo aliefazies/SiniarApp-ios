@@ -7,14 +7,10 @@
 
 import UIKit
 
-class SmallPrimaryButton: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+class SmallPrimaryButton: PrimaryButton {
+    override func setup() {
+        super.setup()
+        
+        titleLabel?.font = .systemFont(ofSize: 14, weight: .regular)
     }
-    */
-
 }

@@ -8,13 +8,16 @@
 import UIKit
 
 class PrimaryButton: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    convenience init() {
+        self.init(type: .system)
+        setup()
     }
-    */
-
+    
+    func setup() {
+        tintColor = UIColor.Siniar.neutral3
+        backgroundColor = UIColor.Siniar.brand1
+        titleLabel?.font = .systemFont(ofSize: 16, weight: .bold)
+        layer.cornerRadius = 4
+        layer.masksToBounds = true
+    }
 }
