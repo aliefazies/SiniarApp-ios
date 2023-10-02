@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0147126D2ACAA32E0087734B /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147126C2ACAA32E0087734B /* PodcastViewController.swift */; };
+		0147126F2ACAA8C30087734B /* PodcastDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147126E2ACAA8C30087734B /* PodcastDetailViewCell.swift */; };
+		014712712ACAB1F00087734B /* EpisodeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014712702ACAB1F00087734B /* EpisodeViewCell.swift */; };
+		014712732ACAC2950087734B /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014712722ACAC2950087734B /* DateExtension.swift */; };
+		014712752ACAC4500087734B /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014712742ACAC4500087734B /* DoubleExtension.swift */; };
+		014712772ACAC63D0087734B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014712762ACAC63D0087734B /* StringExtension.swift */; };
 		016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD52AB9583C000E6BAB /* AppDelegate.swift */; };
 		016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD72AB9583C000E6BAB /* SceneDelegate.swift */; };
 		016BBBDA2AB9583C000E6BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBD92AB9583C000E6BAB /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0147126C2ACAA32E0087734B /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		0147126E2ACAA8C30087734B /* PodcastDetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailViewCell.swift; sourceTree = "<group>"; };
+		014712702ACAB1F00087734B /* EpisodeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewCell.swift; sourceTree = "<group>"; };
+		014712722ACAC2950087734B /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		014712742ACAC4500087734B /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		014712762ACAC63D0087734B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		016BBBD22AB9583C000E6BAB /* SiniarApp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SiniarApp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		016BBBD52AB9583C000E6BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016BBBD72AB9583C000E6BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +163,9 @@
 			children = (
 				016BBBF12AB97C92000E6BAB /* UIColorExtension.swift */,
 				01E32D6A2ABB002200150B2E /* MoyaExtensions.swift */,
+				014712722ACAC2950087734B /* DateExtension.swift */,
+				014712742ACAC4500087734B /* DoubleExtension.swift */,
+				014712762ACAC63D0087734B /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -198,6 +213,9 @@
 			isa = PBXGroup;
 			children = (
 				016BBC072AB9B6E7000E6BAB /* SearchViewController.swift */,
+				0147126C2ACAA32E0087734B /* PodcastViewController.swift */,
+				0147126E2ACAA8C30087734B /* PodcastDetailViewCell.swift */,
+				014712702ACAB1F00087734B /* EpisodeViewCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -353,13 +371,18 @@
 				016BBBFF2AB99C87000E6BAB /* Ftux.swift in Sources */,
 				016BBC022AB9B235000E6BAB /* MainViewController.swift in Sources */,
 				016BBC0B2AB9B70D000E6BAB /* AccountViewController.swift in Sources */,
+				0147126D2ACAA32E0087734B /* PodcastViewController.swift in Sources */,
 				01E32D6B2ABB002200150B2E /* MoyaExtensions.swift in Sources */,
 				016BBC0E2AB9BC57000E6BAB /* AlbumsViewCell.swift in Sources */,
 				01E32D652ABAF1B200150B2E /* APIProvider.swift in Sources */,
 				016BBBF02AB95B37000E6BAB /* FtuxViewController.swift in Sources */,
 				016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */,
+				0147126F2ACAA8C30087734B /* PodcastDetailViewCell.swift in Sources */,
 				016BBBDA2AB9583C000E6BAB /* ViewController.swift in Sources */,
 				01E32D692ABAF7C800150B2E /* Podcast.swift in Sources */,
+				014712772ACAC63D0087734B /* StringExtension.swift in Sources */,
+				014712752ACAC4500087734B /* DoubleExtension.swift in Sources */,
+				014712712ACAB1F00087734B /* EpisodeViewCell.swift in Sources */,
 				016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */,
 				016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */,
 				016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */,
@@ -369,6 +392,7 @@
 				016BBBF62AB97F12000E6BAB /* PrimaryButton.swift in Sources */,
 				01E32D6D2ABB00FB00150B2E /* ErrorResponse.swift in Sources */,
 				016BBBE02AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld in Sources */,
+				014712732ACAC2950087734B /* DateExtension.swift in Sources */,
 				01E32D672ABAF77E00150B2E /* SearchResponse.swift in Sources */,
 				016BBBF22AB97C92000E6BAB /* UIColorExtension.swift in Sources */,
 				01E32D632ABAEE9300150B2E /* API.swift in Sources */,
