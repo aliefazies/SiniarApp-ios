@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = .Siniar.brand2
+        UINavigationBar.appearance().tintColor = .Siniar.neutral1
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.Siniar.neutral1]
+        if #available(iOS 11.0, *) {
+            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.Siniar.neutral1]
+        }
+        
+        UITabBar.appearance().barTintColor = .Siniar.brand2
+        
+        IQKeyboardManager.shared.enable = true
         
         if #available(iOS 13.0, *) {
             // initialize in SceneDelegate

@@ -18,6 +18,21 @@
 		016BBBF62AB97F12000E6BAB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF52AB97F11000E6BAB /* PrimaryButton.swift */; };
 		016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF72AB98092000E6BAB /* SmallPrimaryButton.swift */; };
 		016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBF92AB98909000E6BAB /* FtuxViewCell.swift */; };
+		016BBBFF2AB99C87000E6BAB /* Ftux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBBFE2AB99C87000E6BAB /* Ftux.swift */; };
+		016BBC022AB9B235000E6BAB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC012AB9B235000E6BAB /* MainViewController.swift */; };
+		016BBC052AB9B42E000E6BAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC042AB9B42E000E6BAB /* HomeViewController.swift */; };
+		016BBC082AB9B6E7000E6BAB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC072AB9B6E7000E6BAB /* SearchViewController.swift */; };
+		016BBC0B2AB9B70D000E6BAB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */; };
+		016BBC0E2AB9BC57000E6BAB /* AlbumsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0D2AB9BC57000E6BAB /* AlbumsViewCell.swift */; };
+		016BBC102AB9C8BC000E6BAB /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0F2AB9C8BC000E6BAB /* AlbumViewCell.swift */; };
+		01E32D602ABACC5200150B2E /* MusicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D5F2ABACC5200150B2E /* MusicViewCell.swift */; };
+		01E32D632ABAEE9300150B2E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D622ABAEE9300150B2E /* API.swift */; };
+		01E32D652ABAF1B200150B2E /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D642ABAF1B200150B2E /* APIProvider.swift */; };
+		01E32D672ABAF77E00150B2E /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D662ABAF77E00150B2E /* SearchResponse.swift */; };
+		01E32D692ABAF7C800150B2E /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D682ABAF7C800150B2E /* Podcast.swift */; };
+		01E32D6B2ABB002200150B2E /* MoyaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D6A2ABB002200150B2E /* MoyaExtensions.swift */; };
+		01E32D6D2ABB00FB00150B2E /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D6C2ABB00FB00150B2E /* ErrorResponse.swift */; };
+		7E1190AE8F9B548D85C0C8E5 /* Pods_SiniarApp_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733CFA2F833DE809C2F66F68 /* Pods_SiniarApp_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +49,23 @@
 		016BBBF52AB97F11000E6BAB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		016BBBF72AB98092000E6BAB /* SmallPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPrimaryButton.swift; sourceTree = "<group>"; };
 		016BBBF92AB98909000E6BAB /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
+		016BBBFE2AB99C87000E6BAB /* Ftux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ftux.swift; sourceTree = "<group>"; };
+		016BBC012AB9B235000E6BAB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		016BBC042AB9B42E000E6BAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		016BBC072AB9B6E7000E6BAB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		016BBC0D2AB9BC57000E6BAB /* AlbumsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewCell.swift; sourceTree = "<group>"; };
+		016BBC0F2AB9C8BC000E6BAB /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		01E32D5F2ABACC5200150B2E /* MusicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCell.swift; sourceTree = "<group>"; };
+		01E32D622ABAEE9300150B2E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		01E32D642ABAF1B200150B2E /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		01E32D662ABAF77E00150B2E /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		01E32D682ABAF7C800150B2E /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		01E32D6A2ABB002200150B2E /* MoyaExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaExtensions.swift; sourceTree = "<group>"; };
+		01E32D6C2ABB00FB00150B2E /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		733CFA2F833DE809C2F66F68 /* Pods_SiniarApp_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiniarApp_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA714EF1026B701D162E9159 /* Pods-SiniarApp-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiniarApp-ios.debug.xcconfig"; path = "Target Support Files/Pods-SiniarApp-ios/Pods-SiniarApp-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D667C8D142E171DDE77094 /* Pods-SiniarApp-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiniarApp-ios.release.xcconfig"; path = "Target Support Files/Pods-SiniarApp-ios/Pods-SiniarApp-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1190AE8F9B548D85C0C8E5 /* Pods_SiniarApp_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +85,8 @@
 			children = (
 				016BBBD42AB9583C000E6BAB /* SiniarApp-ios */,
 				016BBBD32AB9583C000E6BAB /* Products */,
+				751BDF7A6B34A16775A665F5 /* Pods */,
+				3F1BE78C5BF204171AF31F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +116,7 @@
 		016BBBEC2AB95AEF000E6BAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				01E32D612ABAEE8600150B2E /* API */,
 				016BBBFB2AB99B32000E6BAB /* Models */,
 				016BBBF42AB97EFE000E6BAB /* Views */,
 				016BBBF32AB97CD2000E6BAB /* Extensions */,
@@ -92,6 +128,10 @@
 		016BBBED2AB95AF5000E6BAB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				016BBC092AB9B701000E6BAB /* Account */,
+				016BBC062AB9B6DE000E6BAB /* Search */,
+				016BBC032AB9B421000E6BAB /* Home */,
+				016BBC002AB9B21D000E6BAB /* Main */,
 				016BBBEE2AB95AFF000E6BAB /* Ftux */,
 			);
 			path = Modules;
@@ -110,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				016BBBF12AB97C92000E6BAB /* UIColorExtension.swift */,
+				01E32D6A2ABB002200150B2E /* MoyaExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,8 +167,73 @@
 		016BBBFB2AB99B32000E6BAB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				016BBBFE2AB99C87000E6BAB /* Ftux.swift */,
+				01E32D662ABAF77E00150B2E /* SearchResponse.swift */,
+				01E32D682ABAF7C800150B2E /* Podcast.swift */,
+				01E32D6C2ABB00FB00150B2E /* ErrorResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		016BBC002AB9B21D000E6BAB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				016BBC012AB9B235000E6BAB /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		016BBC032AB9B421000E6BAB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				016BBC042AB9B42E000E6BAB /* HomeViewController.swift */,
+				016BBC0D2AB9BC57000E6BAB /* AlbumsViewCell.swift */,
+				016BBC0F2AB9C8BC000E6BAB /* AlbumViewCell.swift */,
+				01E32D5F2ABACC5200150B2E /* MusicViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		016BBC062AB9B6DE000E6BAB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				016BBC072AB9B6E7000E6BAB /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		016BBC092AB9B701000E6BAB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		01E32D612ABAEE8600150B2E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01E32D622ABAEE9300150B2E /* API.swift */,
+				01E32D642ABAF1B200150B2E /* APIProvider.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3F1BE78C5BF204171AF31F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733CFA2F833DE809C2F66F68 /* Pods_SiniarApp_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		751BDF7A6B34A16775A665F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA714EF1026B701D162E9159 /* Pods-SiniarApp-ios.debug.xcconfig */,
+				F2D667C8D142E171DDE77094 /* Pods-SiniarApp-ios.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016BBBE92AB9583E000E6BAB /* Build configuration list for PBXNativeTarget "SiniarApp-ios" */;
 			buildPhases = (
+				016A2726225B10844A466CCE /* [CP] Check Pods Manifest.lock */,
 				016BBBCE2AB9583C000E6BAB /* Sources */,
 				016BBBCF2AB9583C000E6BAB /* Frameworks */,
 				016BBBD02AB9583C000E6BAB /* Resources */,
+				B2D6AA393373377E6E27E416 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,20 +303,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016A2726225B10844A466CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiniarApp-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D6AA393373377E6E27E416 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiniarApp-ios/Pods-SiniarApp-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiniarApp-ios/Pods-SiniarApp-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiniarApp-ios/Pods-SiniarApp-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		016BBBCE2AB9583C000E6BAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016BBBFF2AB99C87000E6BAB /* Ftux.swift in Sources */,
+				016BBC022AB9B235000E6BAB /* MainViewController.swift in Sources */,
+				016BBC0B2AB9B70D000E6BAB /* AccountViewController.swift in Sources */,
+				01E32D6B2ABB002200150B2E /* MoyaExtensions.swift in Sources */,
+				016BBC0E2AB9BC57000E6BAB /* AlbumsViewCell.swift in Sources */,
+				01E32D652ABAF1B200150B2E /* APIProvider.swift in Sources */,
 				016BBBF02AB95B37000E6BAB /* FtuxViewController.swift in Sources */,
 				016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */,
 				016BBBDA2AB9583C000E6BAB /* ViewController.swift in Sources */,
+				01E32D692ABAF7C800150B2E /* Podcast.swift in Sources */,
 				016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */,
 				016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */,
 				016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */,
+				01E32D602ABACC5200150B2E /* MusicViewCell.swift in Sources */,
+				016BBC102AB9C8BC000E6BAB /* AlbumViewCell.swift in Sources */,
+				016BBC082AB9B6E7000E6BAB /* SearchViewController.swift in Sources */,
 				016BBBF62AB97F12000E6BAB /* PrimaryButton.swift in Sources */,
+				01E32D6D2ABB00FB00150B2E /* ErrorResponse.swift in Sources */,
 				016BBBE02AB9583C000E6BAB /* SiniarApp_ios.xcdatamodeld in Sources */,
+				01E32D672ABAF77E00150B2E /* SearchResponse.swift in Sources */,
 				016BBBF22AB97C92000E6BAB /* UIColorExtension.swift in Sources */,
+				01E32D632ABAEE9300150B2E /* API.swift in Sources */,
+				016BBC052AB9B42E000E6BAB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +506,7 @@
 		};
 		016BBBEA2AB9583E000E6BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA714EF1026B701D162E9159 /* Pods-SiniarApp-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,6 +539,7 @@
 		};
 		016BBBEB2AB9583E000E6BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D667C8D142E171DDE77094 /* Pods-SiniarApp-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

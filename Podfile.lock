@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.8.0)
+  - FeedKit (9.1.2)
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (6.3.1)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - FeedKit (~> 9.0)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Moya/RxSwift (~> 15.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FeedKit
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  FeedKit: 71653273ab08e618cd6fd1301ca08fc02dca6a9e
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 2968f2e4a8e15a88b9f9dfd0ced4b890f18cd2b8
+
+COCOAPODS: 1.12.1
