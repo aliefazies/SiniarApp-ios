@@ -14,7 +14,7 @@ class PodcastViewController: UIViewController {
     weak var tableView: UITableView!
     
     var podcast: Podcast!
-    var rssFeed: RSSFeed?
+    var rssFeed: Playlist?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,11 @@ class PodcastViewController: UIViewController {
         // Do any additional setup after loading the view.
         setup()
         loadData()
+        NotificationCenter.default.addObserver(self, selector: #selector(self.playerProviderStateDidChange(_:)), name: .PlayerProviderStateDidChange, object: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: .PlayerProviderStateDidChange, object: nil)
     }
     
     func setup() {
@@ -69,6 +74,12 @@ extension PodcastViewController {
         dismiss(animated: true)
     }
     
+    @objc func playerProviderStateDidChange(_ sender: Any) {
+        if PlayerProvider.shared.playlist == rssFeed {
+            tableView.reloadData()
+        }
+    }
+    
     func loadData() {
         ApiProvider.shared.loadFromFeedUrl(podcast.feedUrl) { [weak self] (result) in
             guard let `self` = self else { return }
@@ -79,6 +90,17 @@ extension PodcastViewController {
             case .failure(let error):
                 let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: .default))
+            }
+        }
+    }
+    
+    func play(_ index: Int) {
+        let playerProdiver = PlayerProvider.shared
+        if let playlist = rssFeed {
+            if playerProdiver.playlist == playlist, playerProdiver.currentIndex == index {
+                playerProdiver.podcastPlay()
+            } else {
+                playerProdiver.launchPodcastPlaylist(playlist: playlist, index: index)
             }
         }
     }
@@ -117,7 +139,13 @@ extension PodcastViewController: UITableViewDataSource {
             cell.artworkImageView.kf.setImage(with: URL(string: podcast.artworkUrl600))
             cell.titleLabel.text = podcast.collectionName
             cell.subtitleLabel.text = podcast.artistName
-            cell.descTextView.text = nil
+            cell.descTextView.attributedText = rssFeed?.description?
+                .convertHtmlToAttributedStringWithCSS(
+                    font: UIFont.systemFont(ofSize: 14, weight: .regular),
+                    cssColor: "#EEEEEE",
+                    lineHeight: 18,
+                    cssTextAlign: "left"
+                )
             cell.genreLabel.text = podcast.genres.joined(separator: ", ")
             return cell
         case 1:
@@ -129,9 +157,26 @@ extension PodcastViewController: UITableViewDataSource {
             cell.titleLabel.text = episode?.title ?? ""
             cell.descTextView.attributedText = episode?.description?.convertHtmlToAttributedStringWithCSS(font: .systemFont(ofSize: 12, weight: .regular), cssColor: "#EEEEEE", lineHeight: 16, cssTextAlign: "left")
             cell.durationLabel.text = episode?.iTunes?.iTunesDuration?.durationString
+            cell.delegate = self
+            
+            let playerProvider = PlayerProvider.shared
+            if playerProvider.playlist == rssFeed, playerProvider.currentIndex == indexPath.row, playerProvider.isPodcastPlaying() {
+                cell.playButton.setImage(UIImage(named: "btn_pause_small")?.withRenderingMode(.alwaysOriginal), for: .normal)
+            } else {
+                cell.playButton.setImage(UIImage(named: "btn_play_small")?.withRenderingMode(.alwaysOriginal), for: .normal)
+            }
+            
             return cell
         default:
             return UITableViewCell()
+        }
+    }
+}
+
+extension PodcastViewController: EpisodeViewCellDelegate {
+    func episodeViewCellPlayButtonTapped(_ cell: EpisodeViewCell) {
+        if let indexPath = tableView.indexPath(for: cell) {
+            play(indexPath.row)
         }
     }
 }

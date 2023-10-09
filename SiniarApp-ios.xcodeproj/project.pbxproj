@@ -31,6 +31,8 @@
 		016BBC0B2AB9B70D000E6BAB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */; };
 		016BBC0E2AB9BC57000E6BAB /* AlbumsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0D2AB9BC57000E6BAB /* AlbumsViewCell.swift */; };
 		016BBC102AB9C8BC000E6BAB /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BBC0F2AB9C8BC000E6BAB /* AlbumViewCell.swift */; };
+		01B857A32ACFDBA500B183D2 /* PlayerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B857A22ACFDBA500B183D2 /* PlayerProvider.swift */; };
+		01B857A62ACFDEC800B183D2 /* AudioExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B857A52ACFDEC800B183D2 /* AudioExtensions.swift */; };
 		01E32D602ABACC5200150B2E /* MusicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D5F2ABACC5200150B2E /* MusicViewCell.swift */; };
 		01E32D632ABAEE9300150B2E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D622ABAEE9300150B2E /* API.swift */; };
 		01E32D652ABAF1B200150B2E /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E32D642ABAF1B200150B2E /* APIProvider.swift */; };
@@ -68,6 +70,8 @@
 		016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		016BBC0D2AB9BC57000E6BAB /* AlbumsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewCell.swift; sourceTree = "<group>"; };
 		016BBC0F2AB9C8BC000E6BAB /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		01B857A22ACFDBA500B183D2 /* PlayerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProvider.swift; sourceTree = "<group>"; };
+		01B857A52ACFDEC800B183D2 /* AudioExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioExtensions.swift; sourceTree = "<group>"; };
 		01E32D5F2ABACC5200150B2E /* MusicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCell.swift; sourceTree = "<group>"; };
 		01E32D622ABAEE9300150B2E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		01E32D642ABAF1B200150B2E /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 		016BBBEC2AB95AEF000E6BAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				01B857A42ACFDBB100B183D2 /* Provider */,
 				01E32D612ABAEE8600150B2E /* API */,
 				016BBBFB2AB99B32000E6BAB /* Models */,
 				016BBBF42AB97EFE000E6BAB /* Views */,
@@ -166,6 +171,7 @@
 				014712722ACAC2950087734B /* DateExtension.swift */,
 				014712742ACAC4500087734B /* DoubleExtension.swift */,
 				014712762ACAC63D0087734B /* StringExtension.swift */,
+				01B857A52ACFDEC800B183D2 /* AudioExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -226,6 +232,14 @@
 				016BBC0A2AB9B70D000E6BAB /* AccountViewController.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		01B857A42ACFDBB100B183D2 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				01B857A22ACFDBA500B183D2 /* PlayerProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		01E32D612ABAEE8600150B2E /* API */ = {
@@ -374,6 +388,7 @@
 				0147126D2ACAA32E0087734B /* PodcastViewController.swift in Sources */,
 				01E32D6B2ABB002200150B2E /* MoyaExtensions.swift in Sources */,
 				016BBC0E2AB9BC57000E6BAB /* AlbumsViewCell.swift in Sources */,
+				01B857A62ACFDEC800B183D2 /* AudioExtensions.swift in Sources */,
 				01E32D652ABAF1B200150B2E /* APIProvider.swift in Sources */,
 				016BBBF02AB95B37000E6BAB /* FtuxViewController.swift in Sources */,
 				016BBBFA2AB98909000E6BAB /* FtuxViewCell.swift in Sources */,
@@ -385,6 +400,7 @@
 				014712712ACAB1F00087734B /* EpisodeViewCell.swift in Sources */,
 				016BBBD62AB9583C000E6BAB /* AppDelegate.swift in Sources */,
 				016BBBD82AB9583C000E6BAB /* SceneDelegate.swift in Sources */,
+				01B857A32ACFDBA500B183D2 /* PlayerProvider.swift in Sources */,
 				016BBBF82AB98092000E6BAB /* SmallPrimaryButton.swift in Sources */,
 				01E32D602ABACC5200150B2E /* MusicViewCell.swift in Sources */,
 				016BBC102AB9C8BC000E6BAB /* AlbumViewCell.swift in Sources */,

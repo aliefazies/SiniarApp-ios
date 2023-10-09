@@ -12,7 +12,7 @@ class PodcastDetailViewCell: UITableViewCell {
     weak var artworkImageView: UIImageView!
     weak var titleLabel: UILabel!
     weak var subtitleLabel: UILabel!
-    weak var descTextView: UITextView!
+    weak var descTextView: UILabel!
     weak var genreLabel: UILabel!
     
     static let identifier = "PodcastDetailViewCell"
@@ -84,11 +84,10 @@ class PodcastDetailViewCell: UITableViewCell {
             subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8)
         ])
         
-        let descTextView = UITextView(frame: .zero)
+        let descTextView = UILabel(frame: .zero)
         contentView.addSubview(descTextView)
         self.descTextView = descTextView
-        descTextView.isScrollEnabled = false
-        descTextView.isEditable = false
+        descTextView.numberOfLines = 0
         descTextView.font = UIFont.systemFont(ofSize: 12, weight: .regular)
         descTextView.textColor = .Siniar.neutral1
         descTextView.backgroundColor = .clear

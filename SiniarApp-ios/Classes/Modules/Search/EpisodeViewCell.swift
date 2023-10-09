@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol EpisodeViewCellDelegate {
+    func episodeViewCellPlayButtonTapped(_ cell: EpisodeViewCell)
+}
+
 class EpisodeViewCell: UITableViewCell {
     
     weak var episodeImageView: UIImageView!
@@ -15,6 +19,8 @@ class EpisodeViewCell: UITableViewCell {
     weak var descTextView: UITextView!
     weak var playButton: UIButton!
     weak var durationLabel: UILabel!
+    
+    var delegate: EpisodeViewCellDelegate?
     
     static let identifier = "EpisodeViewCell"
     
@@ -135,6 +141,6 @@ class EpisodeViewCell: UITableViewCell {
 // MARK: - Helpers
 extension EpisodeViewCell {
     @objc func playButtonTapped(_ sender: Any) {
-        
+        delegate?.episodeViewCellPlayButtonTapped(self)
     }
 }
